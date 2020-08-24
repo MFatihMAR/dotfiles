@@ -1,0 +1,5 @@
+[user]
+	name = M. Fatih MAR
+	email = mfatihmar@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global

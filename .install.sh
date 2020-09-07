@@ -16,7 +16,7 @@ brew cask install dotnet-sdk
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Install Antigen via curl
-curl -L git.io/antigen > antigen.zsh
+curl -L git.io/antigen > ~/antigen.zsh
 
 # Create Workspace Folder
 mkdir -p ~/Workspace

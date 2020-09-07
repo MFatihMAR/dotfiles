@@ -8,6 +8,8 @@ brew install ripgrep
 brew install go
 brew install llvm
 brew install clang-format
+brew install node
+brew install yarn
 
 brew cask install visual-studio-code
 brew cask install dotnet-sdk

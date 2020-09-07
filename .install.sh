@@ -14,3 +14,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 # Install Antigen via curl
 curl -L git.io/antigen > antigen.zsh
+
+# Create Workspace Folder
+mkdir -p ~/Workspace

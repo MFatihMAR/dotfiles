@@ -5,6 +5,7 @@ brew install tree
 brew install ripgrep
 brew install git
 brew install git-lfs
+git lfs install
 
 brew install go
 brew install llvm

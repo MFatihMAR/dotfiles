@@ -1,9 +1,10 @@
 # Install Homebrew
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-brew install git
 brew install tree
 brew install ripgrep
+brew install git
+brew install git-lfs
 
 brew install go
 brew install llvm

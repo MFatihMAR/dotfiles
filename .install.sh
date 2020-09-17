@@ -9,6 +9,7 @@ git lfs install
 
 brew install go
 brew install llvm
+brew install cmake
 brew install clang-format
 brew install node
 brew install yarn

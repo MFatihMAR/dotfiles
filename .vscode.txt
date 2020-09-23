@@ -2,25 +2,10 @@
 	- C#
 	- Go
 	- C/C++
-	- jumpy
 	- Bracket Pair Colorizer 2
 	- Git History
 	- GitHub Theme
 	- Markdown Preview Github Styling
-
-// keybindings.json
-[
-	{
-		"key": "shift+enter",
-		"command": "extension.jumpy-word",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "escape",
-		"command": "extension.jumpy-exit",
-		"when": "editorTextFocus && jumpy.isJumpyMode"
-	}
-]
 
 // settings.json
 {

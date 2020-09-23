@@ -17,12 +17,6 @@ brew install yarn
 brew cask install visual-studio-code
 brew cask install dotnet-sdk
 
-# Install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-# Get Antigen
-curl -L git.io/antigen > ~/antigen.zsh
-
 # Create Workspace Folder
 mkdir -p ~/Workspace
 
@@ -35,7 +29,6 @@ sudo -v
 sudo scutil --set ComputerName "0xDEADFA11"
 sudo scutil --set HostName "0xDEADFA11"
 sudo scutil --set LocalHostName "0xDEADFA11"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "0xDEADFA11"
 
 # Disable press-and-hold for keys in favor of key repeat
 defaults write -g ApplePressAndHoldEnabled -bool false
@@ -43,3 +36,13 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 # Set a blazingly fast keyboard repeat rate
 defaults write -g KeyRepeat -int 1
 defaults write -g InitialKeyRepeat -int 10
+
+
+
+# Terminal Setup
+
+# Get Antigen
+curl -L git.io/antigen > ~/antigen.zsh
+
+# Install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

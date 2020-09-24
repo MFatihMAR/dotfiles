@@ -16,6 +16,7 @@ brew install yarn
 
 brew cask install visual-studio-code
 brew cask install dotnet-sdk
+brew cask install mono-mdk
 
 # Create Workspace Folder
 mkdir -p ~/Workspace

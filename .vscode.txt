@@ -11,7 +11,8 @@
 {
 	"workbench.startupEditor": "none",
 	"workbench.iconTheme": "vs-minimal",
-	"workbench.colorTheme": "GitHub Dark",
+	"workbench.colorTheme": "Default Dark+",
+	"editor.minimap.enabled": true,
 	"editor.codeLens": false,
 	"editor.insertSpaces": false,
 	"editor.detectIndentation": false,
@@ -24,8 +25,9 @@
 	"files.autoSave": "afterDelay",
 	"telemetry.enableTelemetry": false,
 	"telemetry.enableCrashReporter": false,
-	"bracket-pair-colorizer-2.colors": [
-		// https://primer.style/css/support/color-system
+	// for light themes
+	/* "bracket-pair-colorizer-2.colors": [
+		// GitHub Primer Colors: https://primer.style/css/support/color-system
 		"#6a737d", // gray
 		"#d73a49", // red
 		"#6f42c1", // purple
@@ -34,6 +36,12 @@
 		"#ea4aaa", // pink
 		"#28a745", // green
 		"#ffd33d", // yellow
+	], */
+	// for dark themes
+	"bracket-pair-colorizer-2.colors": [
+		"#DCDCAA", // Gold → Pale Spring Bud
+		"#C586C0", // Orchid → African Violet
+		"#9CDCFE", // LightSkyBlue → Baby Blue
 	],
 	"bracket-pair-colorizer-2.scopeLineCSS": [
 		"borderStyle : solid",

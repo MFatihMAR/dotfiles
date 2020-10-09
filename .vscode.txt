@@ -3,7 +3,7 @@
 	- Go
 	- C/C++
 	- Bracket Pair Colorizer 2
-	- Git History
+	- Git Graph (alternative: Git History)
 	- GitHub Theme
 	- Markdown Preview Github Styling
 

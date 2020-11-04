@@ -3,14 +3,16 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/in
 
 brew install tree
 brew install ripgrep
+brew install ffmpeg
+brew install gifsicle
 brew install git
 brew install git-lfs
 git lfs install
 
 brew install go
 brew install llvm
-brew install cmake
 brew install clang-format
+brew install cmake
 brew install node
 brew install yarn
 

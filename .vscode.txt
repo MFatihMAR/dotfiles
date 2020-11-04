@@ -1,7 +1,11 @@
 // extensions
-	- C#
-	- Go
 	- C/C++
+		- CodeLLDB
+		- Clang-Format
+	- C#
+		- Debugger for Unity
+		- Mono Debug
+	- Go
 	- Bracket Pair Colorizer 2
 	- Git Graph (alternative: Git History)
 	- GitHub Theme
@@ -11,7 +15,7 @@
 {
 	"workbench.startupEditor": "none",
 	"workbench.iconTheme": "vs-minimal",
-	"workbench.colorTheme": "Default Dark+",
+	"workbench.colorTheme": "GitHub Light",
 	"editor.minimap.enabled": true,
 	"editor.codeLens": false,
 	"editor.insertSpaces": false,
@@ -26,7 +30,7 @@
 	"telemetry.enableTelemetry": false,
 	"telemetry.enableCrashReporter": false,
 	// for light themes
-	/* "bracket-pair-colorizer-2.colors": [
+	"bracket-pair-colorizer-2.colors": [
 		// GitHub Primer Colors: https://primer.style/css/support/color-system
 		"#6a737d", // gray
 		"#d73a49", // red
@@ -36,13 +40,13 @@
 		"#ea4aaa", // pink
 		"#28a745", // green
 		"#ffd33d", // yellow
-	], */
+	],
 	// for dark themes
-	"bracket-pair-colorizer-2.colors": [
+	/* "bracket-pair-colorizer-2.colors": [
 		"#DCDCAA", // Gold → Pale Spring Bud
 		"#C586C0", // Orchid → African Violet
 		"#9CDCFE", // LightSkyBlue → Baby Blue
-	],
+	], */
 	"bracket-pair-colorizer-2.scopeLineCSS": [
 		"borderStyle : solid",
 		"borderWidth : 1px",

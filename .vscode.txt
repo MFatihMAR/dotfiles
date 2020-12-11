@@ -5,9 +5,11 @@
 	- C#
 		- Debugger for Unity
 		- Mono Debug
-	- Go
+    - Go
+    - Partial Diff
 	- Bracket Pair Colorizer 2
-	- Git Graph (alternative: Git History)
+    - Git Graph (alternative: Git History)
+    - GitHub Pull Requests and Issues
 	- GitHub Theme
 	- Markdown Preview Github Styling
 
@@ -16,14 +18,15 @@
 	"workbench.startupEditor": "none",
 	"workbench.iconTheme": "vs-minimal",
 	"workbench.colorTheme": "GitHub Light",
-	"editor.minimap.enabled": true,
+	"editor.minimap.enabled": false,
 	"editor.codeLens": false,
-	"editor.insertSpaces": false,
+	"editor.insertSpaces": true,
 	"editor.detectIndentation": false,
 	"editor.renderIndentGuides": false,
 	"editor.renderWhitespace": "selection",
 	"editor.fontFamily": "IBM Plex Mono",
-	"editor.fontSize": 14,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 20,
 	"terminal.integrated.fontFamily": "SF Mono Powerline",
 	"terminal.integrated.fontSize": 14,
 	"terminal.integrated.shell.osx": "/bin/zsh",

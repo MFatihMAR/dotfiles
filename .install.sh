@@ -21,7 +21,6 @@ brew cask install dotnet-sdk
 brew cask install mono-mdk
 brew cask install wireshark
 brew cask install the-unarchiver
-brew cask install cheatsheet
 
 # Create Workspace Folder
 mkdir -p ~/Workspace

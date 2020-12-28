@@ -6,12 +6,15 @@
 		- Debugger for Unity
 		- Mono Debug
     - Go
-    - Partial Diff
 	- Bracket Pair Colorizer 2
+    - Bracket Jumper
+    - Block Travel
+    - jumpy
+    - Partial Diff
     - Git Graph (alternative: Git History)
     - GitHub Pull Requests and Issues
-	- GitHub Theme
 	- Markdown Preview Github Styling
+	- GitHub Theme
 
 // settings.json
 {
@@ -58,3 +61,137 @@
 		"opacity: 1"
 	]
 }
+
+// keybindings.json
+[
+    {
+        "key": "shift+enter",
+        "command": "extension.jumpy-word",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "Escape",
+        "command": "extension.jumpy-exit",
+        "when": "editorTextFocus && jumpy.isJumpyMode"
+    },
+    {
+        "key": "cmd+up",
+        "command": "block-travel.jumpUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+up",
+        "command": "-block-travel.jumpUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+down",
+        "command": "block-travel.jumpDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+down",
+        "command": "-block-travel.jumpDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+up",
+        "command": "block-travel.selectUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "-block-travel.selectUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+down",
+        "command": "block-travel.selectDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "-block-travel.selectDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+up",
+        "command": "bracket-jumper.ascendLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "-bracket-jumper.ascendLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+left",
+        "command": "bracket-jumper.jumpLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+left",
+        "command": "-bracket-jumper.jumpLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+right",
+        "command": "bracket-jumper.jumpRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "-bracket-jumper.jumpRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+cmd+down",
+        "command": "bracket-jumper.ascendRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "-bracket-jumper.ascendRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+cmd+left",
+        "command": "bracket-jumper.selectLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+left",
+        "command": "-bracket-jumper.selectLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+cmd+right",
+        "command": "bracket-jumper.selectRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+right",
+        "command": "-bracket-jumper.selectRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+cmd+up",
+        "command": "bracket-jumper.selectAscendLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "-bracket-jumper.selectAscendLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+cmd+down",
+        "command": "bracket-jumper.selectAscendRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "-bracket-jumper.selectAscendRight",
+        "when": "editorTextFocus"
+    }
+]

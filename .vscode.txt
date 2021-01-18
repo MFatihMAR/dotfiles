@@ -9,12 +9,13 @@
 	- Bracket Pair Colorizer 2
     - Bracket Jumper
     - Block Travel
-    - jumpy
+    - jumpy (+JetBrains: AceJump)
     - Partial Diff
     - Git Graph (alternative: Git History)
     - GitHub Pull Requests and Issues
 	- Markdown Preview Github Styling
 	- GitHub Theme
+    - PlantUML (+JetBrains)
 
 // settings.json
 {

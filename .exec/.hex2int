@@ -1,0 +1,23 @@
+#!python3
+
+import sys
+
+argc = len(sys.argv)
+if argc == 1:
+    print("no input")
+    exit()
+
+if argc > 2:
+    print("too many args")
+    exit()
+
+hexStr = sys.argv[1]
+if hexStr.startswith("0x"):
+    hexStr = hexStr[2:]
+
+hexLen = len(hexStr)
+if hexLen % 2 != 0:
+    print("odd hex len")
+    exit()
+
+print([int(hexStr[idx:idx+2], 16) for idx in range(0, hexLen, 2)])

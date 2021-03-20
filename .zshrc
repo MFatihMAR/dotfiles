@@ -19,3 +19,6 @@ alias td="tree -dL 1"
 
 alias tsa="tree -La 1"
 alias tda="tree -dLa 1"
+
+# custom execs
+export PATH=$PATH:$HOME/.exec

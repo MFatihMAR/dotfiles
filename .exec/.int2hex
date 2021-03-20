@@ -1,0 +1,17 @@
+#!python3
+
+import sys
+
+argc = len(sys.argv)
+if argc == 1:
+    print("no input")
+    exit()
+
+arrStr = sys.argv[1:]
+if argc == 2:
+    arrStr = arrStr[0].split(",")
+else:
+    arrStr = [arg.strip(",") for arg in arrStr]
+
+intArr = [int(arg) for arg in arrStr]
+print("0x" + bytearray(intArr).hex())

@@ -1,4 +1,4 @@
-# Install Homebrew
+# install homebrew
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 brew install tree
@@ -22,32 +22,34 @@ brew cask install mono-mdk
 brew cask install wireshark
 brew cask install the-unarchiver
 
-# Create Workspace Folder
+# create the Workspace folder
 mkdir -p ~/Workspace
 
+# give exec perms to .exec/* files
+chmod -R +x ~/.exec
 
 
-# MacOS Settings
+# macOS settings
 
-# Set Computer & Host Names (as done via System Preferences → Sharing)
+# set computer & host names (as done via System Preferences → Sharing)
 sudo -v
 sudo scutil --set ComputerName "0xDEADFA11"
 sudo scutil --set HostName "0xDEADFA11"
 sudo scutil --set LocalHostName "0xDEADFA11"
 
-# Disable press-and-hold for keys in favor of key repeat
+# disable press-and-hold for keys in favor of key repeat
 defaults write -g ApplePressAndHoldEnabled -bool false
 
-# Set a blazingly fast keyboard repeat rate
+# set a blazingly fast keyboard repeat rate
 defaults write -g KeyRepeat -int 1
 defaults write -g InitialKeyRepeat -int 10
 
 
 
-# Terminal Setup
+# terminal setup
 
-# Get Antigen
+# get antigen
 curl -L git.io/antigen > ~/antigen.zsh
 
-# Install oh-my-zsh
+# install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
